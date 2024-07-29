@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px ;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.shopping{
+    width: 70px;
+    height: 70px;
+    
+}
+.logo{
+    width:300px
+}
+.logo-wrapper{
+    height: 100%;
+    border-right:1px solid black;
+}
+.shopping-wrapper{
+    margin-right: 70px;
+    height: 100%;
+    width: 130px;
+    border-left: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theShop{
+    font-size: 150px;
+
+}
+main{
+    display: flex;
+    height: 100%;
+}
+.side-filter-menu{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    border-right: 1px solid black;
+    height: 100%;
+    width:397px;
+    padding: 40px;;
+}
+input {
+ padding: 10px;
+ font-size: 18px;
+ color: black;
+}
+::placeholder{
+    color:black;
+}
+.search{
+background-color: transparent;
+border:1px solid black ;
+padding: 15px 0px;
+border-radius: 5px;
+margin-top: 30px ;
+cursor: pointer;
+}
+.products-wrapper {
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card-wrapper{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.card-wrapper img{
+    width: 230px;
+    position: absolute;
+    right: -35px;
+    top: 20px;
+}
+.card-wrapper button{
+    position:absolute;
+    bottom: 25px;
+    width: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.add-to-cart{
+    background-color: rgb(20, 20, 20);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+h4{
+    font-size: 25px;
+}
